@@ -33,6 +33,22 @@ docs/example_demos/*-checkpoint*
 
 ### ignore code coverage generated files
 .coverage
-/*.png
 
+### ignore data files
+test_wavedump/wavedumpdata/*
+test_wavedump/templates/*
 
+### ignore noise files
+test_wavedump/wavedump_noise/*
+
+### ignore output arrays
+test_wavedump/saved_outputs/*
+
+### ignore numpy arrays, png, txt, hd5
+*.npy
+*.txt
+*.png
+*.hdf5
+
+### ignore submit files
+*.submit
